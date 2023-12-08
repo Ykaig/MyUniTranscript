@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exams"
+        android:title="My exams"
+        android:icon="@drawable/icon_exams"
+    />
+
+    <item
+        android:id="@+id/calculator"
+        android:title="Mean"
+        android:icon="@drawable/icon_calculator"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_graduate"
+        />
+
+</menu>

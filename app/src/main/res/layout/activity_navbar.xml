@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:paddingVertical="0dp">
+
+        <!-- MY EXAMS - CHOICE -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Exams button -->
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_exams"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="10dp"
+                android:scaleType="fitCenter"
+                android:layout_alignParentStart="true"
+                app:tint="@android:color/white" />
+
+            <!-- Exams text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My exams"
+                android:paddingVertical="2dp"
+                style="@style/NavbarStyle" />
+
+        </LinearLayout>
+
+        <!-- CALCULATE MEAN - CHOICE -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Mean button -->
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/icon_calculator"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="10dp"
+                android:scaleType="fitCenter"
+                android:layout_alignParentStart="true"
+                app:tint="@android:color/white" />
+
+            <!-- Mean text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My mean"
+                android:paddingVertical="2dp"
+                style="@style/NavbarStyle" />
+
+        </LinearLayout>
+
+
+        <!-- MY PROFILE - CHOICE -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Profile button -->
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_graduate"
+                app:tint="@android:color/white" />
+
+            <!-- Profile text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My profile"
+                android:paddingVertical="2dp"
+                android:layout_centerInParent="true"
+                style="@style/NavbarStyle" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
