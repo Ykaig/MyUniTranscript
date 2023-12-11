@@ -4,17 +4,59 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-    <Space
+    <!--
+        <Space
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
+    -->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your exams"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_layout_container"
+            android:orientation="vertical">
+
+            <!--
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Your exams"
+                 android:textSize="30sp"
+                 android:layout_centerInParent="true"/>
+             -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewExamsList"
+                android:textSize="22dp"
+                android:padding="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/addExamBtn"
+        android:text="+"
+        android:textSize="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="goToNewExamPage" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -24,7 +66,7 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true" />
 
     <!--
     <include layout="@layout/activity_navbar" />

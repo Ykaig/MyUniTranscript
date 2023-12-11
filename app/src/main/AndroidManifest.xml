@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MyUniTranscript"
         tools:targetApi="31">
         <activity
+            android:name=".NewExamActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -27,16 +34,16 @@
         </activity>
         <activity
             android:name=".RegistrationActivity"
-            android:label="Registration Activity"/>
+            android:label="Registration Activity" />
         <activity
             android:name=".ExamsActivity"
-            android:label="Exams Activity"/>
+            android:label="Exams Activity" />
         <activity
             android:name=".MeanActivity"
-            android:label="Mean Activity"/>
+            android:label="Mean Activity" />
         <activity
             android:name=".ProfileActivity"
-            android:label="Profile Activity"/>
+            android:label="Profile Activity" />
     </application>
 
 </manifest>
