@@ -7,6 +7,9 @@ Implementa le funzionalità di:
 - Visualizzazione, aggiunta e rimozione esami
 - Calcolo media aritmetica, ponderata e voto previsto di laurea
 
+Tecnologie coinvolte:
+- Android Studio + Java + XML
+
 Feature rilevanti
 - Spostamento tra activities
 - Controllo dati in input e gestione errori
@@ -22,6 +25,9 @@ It implements the functionalities of:
 - Personal area
 - Viewing, adding and removing exams
 - Calculating arithmetic mean, weighted mean and prediction of graduation grade
+
+Technologies involved:
+- Android Studio + Java + XML
 
 Relevant features
 - Movement between activities
