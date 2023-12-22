@@ -7,6 +7,9 @@ Implementa le funzionalità di:
 - Visualizzazione, aggiunta e rimozione esami
 - Calcolo media aritmetica, ponderata e voto previsto di laurea
 
+![App project](https://github.com/Ykaig/MyUniTranscript/assets/46654737/4db4e683-10bd-4ee9-a765-86021805da65)
+
+
 Tecnologie coinvolte:
 - Android Studio + Java + XML
 
@@ -18,10 +21,6 @@ Prossime feature
 - Salvataggio dati permanente
 - Ripristino sessione
 ----
-![Screenshot_2023-12-22-13-38-18-933_com example myunitranscript](https://github.com/Ykaig/MyUniTranscript/assets/46654737/5224a6e9-a078-4962-8ffd-3f97b040aef5)
-![Screenshot_2023-12-22-13-38-22-609_com example myunitranscript](https://github.com/Ykaig/MyUniTranscript/assets/46654737/540d3537-a6cd-4cdd-b760-c1969ec0ba65)
-![Screenshot_2023-12-22-13-38-49-951_com example myunitranscript](https://github.com/Ykaig/MyUniTranscript/assets/46654737/43f109d0-9151-4d36-bb1f-f6c5c73ef851)
-
 -------
 This app simulates a virtual university transcript. 
 It implements the functionalities of:
