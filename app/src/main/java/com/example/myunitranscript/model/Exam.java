@@ -39,5 +39,17 @@ public class Exam implements Serializable {
     public void setGrade(int grade) {
         this.grade = grade;
     }
+
+    @Override
+    public String toString(){
+        StringBuilder result = new StringBuilder();
+
+        result.append(this.getName()).append("\n");
+        result.append("Ects: ").append(this.getEcts()).append("\n");
+        result.append("Grade: ").append(this.getGrade());
+
+        return result.toString();
+
+    }
 }
 

@@ -50,12 +50,12 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/emailEditText"
+                android:id="@+id/usernameEditText"
                 android:textSize="20dp"
                 android:paddingVertical="15dp"
                 android:paddingLeft="5dp"
                 android:background="@android:color/transparent"
-                android:hint="Email"
+                android:hint="Example: name.surname"
                 android:inputType="text" />
         </LinearLayout>
 
@@ -94,7 +94,7 @@
             android:layout_marginBottom="15dp"
             android:background="@drawable/rounded_buttons"
             android:text="LOGIN"
-            android:onClick="goToExamsPage"
+            android:onClick="loginUser"
             android:textSize="22sp" />
 
         <!-- Registration choice -->
